@@ -1,0 +1,32 @@
+{
+  "name": "gitdist-update-server",
+  "version": "1.0.0",
+  "description": "GitHub 联动应用更新分发平台",
+  "main": "server/index.js",
+  "scripts": {
+    "start": "node server/index.js",
+    "build": "vite build",
+    "dev:server": "node server/index.js",
+    "dev:client": "vite"
+  },
+  "dependencies": {
+    "better-sqlite3": "^13.0.3",
+    "cors": "^2.8.6",
+    "dotenv": "^18.0.6",
+    "express": "^5.2.1",
+    "jsonwebtoken": "^9.0.3",
+    "lucide-react": "^1.52.0",
+    "morgan": "^1.12.1",
+    "multer": "^2.4.0",
+    "mysql2": "^3.24.5",
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0",
+    "semver": "^7.8.5"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "^4.3.3",
+    "@vitejs/plugin-react": "^6.1.2",
+    "tailwindcss": "^4.3.3",
+    "vite": "^8.3.3"
+  }
+}
